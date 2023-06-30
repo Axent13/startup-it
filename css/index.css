@@ -16,3 +16,19 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 34px;
+  padding: 0 16px;
+  min-height: calc(100vh - 34px);
+}
+
+@media (min-width: 768px) {
+  .main {
+    min-height: calc(100vh - 60px);
+    margin-top: 60px;
+  }
+}

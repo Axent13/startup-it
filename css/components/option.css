@@ -28,6 +28,13 @@
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 16px;
+  padding-left: 8px;
+}
+
+@media (min-width: 768px) {
+  .option__header {
+    padding-left: 0;
+  }
 }
 
 .option__description {

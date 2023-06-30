@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 42px 0 20px;
+  padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+  .main {
+    margin: 96px 0 16px;
+  }
+}
+
+.main__options {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media (min-width: 768px) {
+  .main__options {
+    gap: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main__options {
+    flex-direction: row;
+  }
+}
+
+.main__option-container {
+  max-width: 352px;
+}
